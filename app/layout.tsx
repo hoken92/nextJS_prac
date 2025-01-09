@@ -27,6 +27,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
+    // ClerkProvider will handle all our routes that need to protected by login
     <ClerkProvider>
       <html lang="en">
         <body

@@ -3,6 +3,7 @@ type NavLink = {
   label: string;
 };
 
+// Navigation links that will be mapped for our nav menu
 export const links: NavLink[] = [
   { href: "/", label: "home" },
   { href: "/favorites ", label: "favorites" },
